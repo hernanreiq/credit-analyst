@@ -1,0 +1,22 @@
+.formulario {
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.507);
+}
+@media only screen and (max-width: 500px){
+    .formulario {
+        min-width: 280;
+    }
+}
+.formulario-fondo {
+    background-image: url('../img/fondo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
