@@ -1,5 +1,5 @@
 <div class="container-md py-5 contenedor-formulario h-100">
-    <form action="" class="formulario mx-auto text-white px-5">
+    <form action="forms/actions/action_registro.php" method="POST" class="formulario mx-auto text-white px-5">
         <fieldset>
             <legend class="text-center py-3 h2">Registrarse</legend>
             <div class="mb-3 text-center">
@@ -11,23 +11,23 @@
                 </div>
             <div class="mb-3 text-center">
                 <label class="h5" for="names-register">Nombres</label><br>
-                <input type="text" id="names-register" class="w-100">
+                <input type="text" name="names-register" id="names-register" class="w-100" required placeholder="Escriba su nombre">
             </div>
             <div class="mb-3 text-center">
                 <label class="h5" for="lastnames-register">Apellidos</label><br>
-                <input type="text" id="lastnames-register" class="w-100">
+                <input type="text" name="lastnames-register" id="lastnames-register" class="w-100" required placeholder="Escriba su apellido">
             </div>            
             <div class="mb-3 text-center">
                 <label class="h5" for="email-register">Correo electrónico</label><br>
-                <input type="email" id="email-register" class="w-100">
+                <input type="email" name="email-register" id="email-register" class="w-100" required placeholder="Escriba su correo electrónico">
             </div>
             <div class="mb-3 text-center">
                 <label class="h5" for="password-register">Contraseña</label><br>
-                <input type="password" id="password-register" class="w-100">
+                <input type="password" name="password-register" id="password-register" class="w-100" required placeholder="Escriba una contraseña">
             </div>
             <div class="mb-3 text-center">
                 <label class="h5" for="password-repeat-register">Repetir contraseña</label><br>
-                <input type="password" id="password-repeat-register" class="w-100">
+                <input type="password" name="password-repeat-register" id="password-repeat-register" class="w-100" required placeholder="Repita su contraseña">
             </div>
             <div class="mb-3 text-center py-1">
             <!--ALERTAS-->    

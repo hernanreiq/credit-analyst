@@ -1,8 +1,8 @@
 <?php require_once 'views/head.php';?>
-<body class="formulario-fondo">
+<body>
     <?php require_once 'views/header.php';?>
     <main>
-        <?php require_once 'controller/Registro_o_IniciarSesion.php';?>
+        <?php require_once 'controller/comprobacion_pantalla.php';?>
     </main>
 
 
