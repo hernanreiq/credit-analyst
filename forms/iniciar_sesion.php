@@ -16,7 +16,7 @@
             <div class="mb-3 text-center">
                 <div class="row">
                     <div class="col-md-6 py-2">
-                        <button type="submit" class="btn btn-secondary w-100">Registrarse</button>
+                        <a href="?user=register" class="btn btn-secondary w-100">Registrarse</a>
                     </div>
                     <div class="col-md-6 py-2">
                         <button type="submit" class="btn btn-success w-100">Acceder</button>
