@@ -20,3 +20,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+.dashboard {
+    background-color: rgba(255, 255, 255, 0.74);
+    border: solid 1px rgba(0, 0, 0, 0.75);
+}

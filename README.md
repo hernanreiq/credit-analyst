@@ -32,4 +32,9 @@ Saneamiento de los datos, capas de seguridad (para correos exitentes, tipos de u
 # Bitácora 6
 30 minutos.
 
-Inicio de sesión, comprobación de existencia del email antes de iniciar, verificación de la contraseña, saneamiento del email y la contraseña antes de comprobarlas.
+Inicio de sesión, comprobación de existencia del email antes de iniciar, verificación de la contraseña, saneamiento del email y la contraseña antes de comprobarlas, retroalimentación al equivocarse con los datos cuando se inicia sesión.
+
+# Bitácora 7 
+1 horas y 10 minutos.
+
+Panel de usuario con estilos pero sin funcionar los botones, distribución de elementos de datos personales, servicios activos y disponibles, historial de servicios, alertas.
