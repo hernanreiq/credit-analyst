@@ -8,4 +8,6 @@
     if(!$connect_db){
         die('La conexión ha fallado: ' . mysqli_connect_error());
     }
+
+    session_start();
 ?>

@@ -30,7 +30,7 @@
                 <input type="password" name="password-repeat-register" id="password-repeat-register" class="w-100" required placeholder="Repita su contraseña">
             </div>
             <div class="mb-3 text-center py-1">
-            <!--ALERTAS-->    
+                <?php require_once 'controller/tipo_de_alertas.php'; //ALERTAS?>
             </div>
             <div class="mb-3 text-center">
                 <div class="row">

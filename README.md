@@ -20,3 +20,8 @@ Base de datos creada y formulario de registro envia los datos pero no los almace
 1 hora y 15 minutos.
 
 Encriptación y envío de los datos. Leve saneamiento de los datos.
+
+# Bitácora 5
+56 minutos.
+
+Saneamiento de los datos, capas de seguridad (para correos exitentes, tipos de usuarios, contraseñas iguales, inyecciones sql) y retroalimentaciones para el usuario dependiendo de sus acciones.
