@@ -1,5 +1,5 @@
 <div class="container-md py-5 contenedor-formulario h-100">
-    <form action="" class="formulario mx-auto text-white px-5">
+    <form action="forms/actions/action_iniciar_sesion.php" method="POST" class="formulario mx-auto text-white px-5">
         <fieldset>
             <legend class="text-center py-3 h2">Iniciar sesión</legend>
             <div class="mb-3 text-center">
@@ -7,8 +7,8 @@
                 <input type="email" id="email-login" name="email-login" class="w-100">
             </div>
             <div class="mb-3 text-center">
-                <label class="h5" for="password-login">Contraseña</label><br>
-                <input type="password" id="password-login" name="password-login" class="w-100">
+                <label class="h5" for="user-password-login">Contraseña</label><br>
+                <input type="password" id="user-password-login" name="user-password-login" class="w-100">
             </div>
             <div class="mb-3 text-center py-1">
                 <?php require_once 'controller/tipo_de_alertas.php'; //ALERTAS?>   

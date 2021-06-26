@@ -8,7 +8,9 @@
             require_once 'forms/iniciar_sesion.php';
         } else if ($_GET['user'] == 'register'){
             require_once 'forms/registro.php';
-        } else {
+        } else if($_GET['user'] == 'dashboard'){
+            require_once 'views/user_dashboard.php';
+        }else{
             header('Location:index.php?user=login');
         }
     } else {

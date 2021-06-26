@@ -1,5 +1,8 @@
 # credit-analyst
-Prueba técnica: crear un sistema completo para el análisis de créditos
+Prueba técnica: crear un sistema completo para el análisis de créditos.
+
+# Tiempo transcurrido
+5 Horas y 51 minutos.
 
 # Bitácora 1
 2 horas y 15 minutos.
@@ -25,3 +28,8 @@ Encriptación y envío de los datos. Leve saneamiento de los datos.
 56 minutos.
 
 Saneamiento de los datos, capas de seguridad (para correos exitentes, tipos de usuarios, contraseñas iguales, inyecciones sql) y retroalimentaciones para el usuario dependiendo de sus acciones.
+
+# Bitácora 6
+30 minutos.
+
+Inicio de sesión, comprobación de existencia del email antes de iniciar, verificación de la contraseña, saneamiento del email y la contraseña antes de comprobarlas.
