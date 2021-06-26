@@ -15,3 +15,8 @@ Desarrollo del formulario de registro
 1 hora.
 
 Base de datos creada y formulario de registro envia los datos pero no los almacena
+
+# Bitácora 4
+1 hora y 15 minutos.
+
+Encriptación y envío de los datos. Leve saneamiento de los datos.
