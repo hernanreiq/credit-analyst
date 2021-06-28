@@ -4,11 +4,11 @@
             <legend class="text-center py-3 h2">Iniciar sesión</legend>
             <div class="mb-3 text-center">
                 <label class="h5" for="email-login">Correo electrónico</label><br>
-                <input type="email" id="email-login" name="email-login" class="w-100">
+                <input type="email" id="email-login" name="email-login" class="w-100" placeholder="Escriba su email">
             </div>
             <div class="mb-3 text-center">
                 <label class="h5" for="user-password-login">Contraseña</label><br>
-                <input type="password" id="user-password-login" name="user-password-login" class="w-100">
+                <input type="password" id="user-password-login" name="user-password-login" class="w-100" placeholder="Escriba su contraseña">
             </div>
             <div class="mb-3 text-center py-1">
                 <?php require_once 'controller/tipo_de_alertas.php'; //ALERTAS?>   

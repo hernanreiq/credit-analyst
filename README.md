@@ -1,8 +1,8 @@
 # credit-analyst
 Prueba técnica: crear un sistema completo para el análisis de créditos.
 
-# Tiempo transcurrido
-5 Horas y 51 minutos.
+# Tiempo en desarrollo del sistema
+16 Horas y 3 minutos.
 
 # Bitácora 1
 2 horas y 15 minutos.
@@ -35,6 +35,15 @@ Saneamiento de los datos, capas de seguridad (para correos exitentes, tipos de u
 Inicio de sesión, comprobación de existencia del email antes de iniciar, verificación de la contraseña, saneamiento del email y la contraseña antes de comprobarlas, retroalimentación al equivocarse con los datos cuando se inicia sesión.
 
 # Bitácora 7 
-1 horas y 10 minutos.
+1 hora y 10 minutos.
 
 Panel de usuario con estilos pero sin funcionar los botones, distribución de elementos de datos personales, servicios activos y disponibles, historial de servicios, alertas.
+
+# Bitácora 8
+8 Horas y 32 minutos.
+
+Gerente: búsqueda de usuarios por ID, Nombre, Apellido o Email, ver datos del usuario selecionado, lista de servicios existentes, crear servicios, actualizar servicios, retroalimentaciones y capas de seguridad.
+
+Usuario: servicios disponibles.
+
+Opciones diferentes dependiendo el tipo e usuario.

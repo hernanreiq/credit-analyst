@@ -24,3 +24,7 @@ body {
     background-color: rgba(255, 255, 255, 0.74);
     border: solid 1px rgba(0, 0, 0, 0.75);
 }
+#description-service {
+    resize: none;
+    height: 100px;
+}
