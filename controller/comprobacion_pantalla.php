@@ -25,6 +25,8 @@
             }
         } else if(isset($_GET['view-user-id']) && $_SESSION['usuario-online'][1] == 'Gerente'){ // VER LOS DATOS DE UN USUARIO DESDE LA CUENTA DE GERENTE
             require_once 'views/view_user_data.php';
+        } else if(isset($_GET['cancel']) && $_SESSION['usuario-online'][1] == 'Usuario'){//CANCELAR UN SERVICIO ACTIVO
+            require_once 'models/cancel_services.php';
         } else { //EL USUARIO ESTÁ ONLINE PERO TIENE UN ENLACE DISTINTO
             $_SESSION['alertas-negativas'] = 'Usted no tiene permisos de Gerente.';
             header('Location:index.php?user=dashboard');

@@ -2,7 +2,7 @@
 Prueba técnica: crear un sistema completo para el análisis de créditos.
 
 # Tiempo en desarrollo del sistema
-16 Horas y 3 minutos.
+18 Horas y 13 minutos.
 
 # Bitácora 1
 2 horas y 15 minutos.
@@ -46,4 +46,9 @@ Gerente: búsqueda de usuarios por ID, Nombre, Apellido o Email, ver datos del u
 
 Usuario: servicios disponibles.
 
-Opciones diferentes dependiendo el tipo e usuario.
+Opciones diferentes dependiendo el tipo de usuario.
+
+# Bitácora 9
+2 Horas y 10 minutos
+
+Cancelacion de servicios, optimización de servicios activos e historial de servicios, retroalimentaciones y saneamientos de los datos.
