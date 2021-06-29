@@ -10,18 +10,9 @@
                     <?php require_once 'models/print_user_data.php'; //IMPRIMIR LA INFORMACIÓN DEL USUARIO SELECCIONADO ?>
                 </div>
             </div>
-            <div class="card my-3">
-                <h2 class="card-title bg-primary text-center text-white py-2">Servicios activos</h2>
-                <div class="card-body">
-                    <?php require_once 'models/print_user_active_services.php'; //IMPRIMIR LOS SERVICIOS ACTIVOS DEL USUARIO SELECCIONADO ?>
-                </div>
-            </div>
-            <div class="card my-3">
-                <h2 class="card-title bg-info text-center text-white py-2">Servicios expirados</h2>
-                <div class="card-body">
-                    <?php require_once 'models/print_user_expired_services.php'; //IMPRIMIR LOS SERVICIOS EXPIRADOS DEL USUARIO SELECCIONADO ?>
-                </div>
-            </div>
+            <?php require_once 'views/servicios_activos.php'; // RECARGAS REALIZADAS POR EL USUARIO?>
+            <?php require_once 'views/recargas.php'; // RECARGAS REALIZADAS POR EL USUARIO?>
+            <?php require_once 'views/historial_servicios.php'; // VER EL HISTORIAL DE SERVICIOS DEL USUARIO?>
         </div>
         <div class="col-md-4">            
             <div class="card my-3">

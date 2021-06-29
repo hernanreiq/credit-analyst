@@ -2,7 +2,7 @@
 Prueba técnica: crear un sistema completo para el análisis de créditos.
 
 # Tiempo en desarrollo del sistema
-19 Horas y 25 minutos.
+20 Horas y 15 minutos.
 
 # Bitácora 1
 2 horas y 15 minutos.
@@ -57,3 +57,8 @@ Cancelacion de servicios, optimización de servicios activos e historial de serv
 1 Hora y 12 minutos
 
 Recargas de dinero, optimizacion al agregar servicios y sus retroalimentaciones
+
+# Bitácora 11
+50 minutos.
+
+Optimización de las recargas, añadidas las recargas al reporte y mejoras en el historial de servicios
