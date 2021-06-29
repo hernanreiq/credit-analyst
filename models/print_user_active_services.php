@@ -9,11 +9,12 @@
             $resultado_servicio = mysqli_fetch_array($buscar_servicio);
             echo '<div class="card mb-3">';
                 echo '<h4 class="card-title py-2 bg-success pl-3 text-white">'.$resultado_servicio[1].'</h4>';
-                echo '<div class="card-body p-0">';
-                    if($_SESSION['usuario-online'][1] == 'Gerente'){
-                        echo '<p class="font-weight-bold">Precio del servicio en el momento de su activación: <span class="badge badge-success">RD$ '.number_format($resultados_historial_usuario[4], 0, '.', ',').'</span></p>';
-                    } else if($_SESSION['usuario-online'][1] == 'Usuario'){
-                        echo '<a href="?cancel='.$resultado_servicio[1].'" class="btn btn-danger w-100">Cancelar servicio <i class="fas fa-trash-alt"></i></a>';
+                if($_SESSION['usuario-online'][1] == 'Gerente'){
+                    echo '<div class="card-body py-0">';
+                    echo '<p class="font-weight-bold">Precio del servicio en el momento de su activación: <span class="badge badge-success">RD$ '.number_format($resultados_historial_usuario[4], 0, '.', ',').'</span></p>';
+                } else if($_SESSION['usuario-online'][1] == 'Usuario'){
+                    echo '<div class="card-body p-0">';
+                    echo '<a href="?cancel='.$resultado_servicio[1].'" class="btn btn-danger w-100">Cancelar servicio <i class="fas fa-trash-alt"></i></a>';
                     }
                 echo '</div>';
             echo '</div>';

@@ -14,8 +14,12 @@
             } else {
                 header('Location:index.php?user=dashboard');
             }
-        } else if(isset($_GET['add']) && $_SESSION['usuario-online'][1] == 'Usuario'){ // AÑADIR SERVICIOS
-            require_once 'models/add_services.php';
+        } else if(isset($_GET['add']) && $_SESSION['usuario-online'][1] == 'Usuario'){ // AÑADIR SERVICIOS Y DINERO
+            if($_GET['add'] == 'money'){
+                require_once 'models/add_money.php';
+            } else {
+                require_once 'models/add_services.php';
+            }
         } else if (isset($_GET['view'])){ //ADMINISTRADOR DE SERVICIOS
             if($_GET['view'] == 'services' && $_SESSION['usuario-online'][1] == 'Gerente'){
                 require_once 'views/dashboard_services.php';
