@@ -10,7 +10,7 @@
         $buscar_servicio_en_historial = mysqli_query($connect_db, "SELECT ID_Historial FROM historiales WHERE ID_Usuario = '$id_usuario' AND ID_Servicio = '$id_servicio[0]' AND Fecha_Expiracion IS NULL");
         if(mysqli_num_rows($buscar_servicio_en_historial) == 1){
             $id_historial = mysqli_fetch_array($buscar_servicio_en_historial);
-            date_default_timezone_set('UTC-4');
+            date_default_timezone_set('UTC');
             $hoy = date("Y-m-d"); 
             mysqli_query($connect_db, "UPDATE historiales SET Fecha_Expiracion = '$hoy' WHERE ID_Historial = '$id_historial[0]'");
             $_SESSION['alertas-positivas'] = 'Servicio cancelado con éxito!';

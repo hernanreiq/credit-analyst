@@ -2,7 +2,7 @@
     $id_usuario = $_SESSION['usuario-online'][0];
     if($_SESSION['usuario-online'][6] < 3000){ //SE COMPRUEBA QUE EL USUARIO TENGA MENOS DE 3000 EN LA CUENTA
         $monto_recargar = 1500;
-        date_default_timezone_set('UTC-4');
+        date_default_timezone_set('UTC');
         $hoy = date("Y-m-d"); 
         if($_SESSION['usuario-online'][7] > 0){ // SE COMPRUEBA QUE EL USUARIO TENGA UNA DEUDA
             $deuda_reducida = $_SESSION['usuario-online'][7] - $monto_recargar;

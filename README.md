@@ -2,7 +2,7 @@
 Prueba técnica: crear un sistema completo para el análisis de créditos.
 
 # Tiempo en desarrollo del sistema
-20 Horas y 15 minutos.
+22 Horas y 53 minutos.
 
 # Bitácora 1
 2 horas y 15 minutos.
@@ -62,3 +62,8 @@ Recargas de dinero, optimizacion al agregar servicios y sus retroalimentaciones
 50 minutos.
 
 Optimización de las recargas, añadidas las recargas al reporte y mejoras en el historial de servicios
+
+# Bitácora 12
+2 horas y 38 minutos
+
+Se pueden crear reportes y convertirlos en pdf con toda la informacion del usuario, se agregó la librería de PHP html2pdf para poder hacer esto posible.

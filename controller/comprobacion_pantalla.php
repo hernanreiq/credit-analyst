@@ -31,6 +31,8 @@
             require_once 'views/view_user_data.php';
         } else if(isset($_GET['cancel']) && $_SESSION['usuario-online'][1] == 'Usuario'){//CANCELAR UN SERVICIO ACTIVO
             require_once 'models/cancel_services.php';
+        } else if(isset($_GET['convert']) && $_SESSION['usuario-online'][1] == 'Gerente'){//CONVERTIR LA INFORMACIÓN DEL USUARIO EN PDF
+            header('Location: convert_pdf.php?user-id='.$_GET['user-id']);
         } else { //EL USUARIO ESTÁ ONLINE PERO TIENE UN ENLACE DISTINTO
             $_SESSION['alertas-negativas'] = 'Usted no tiene permisos de Gerente.';
             header('Location:index.php?user=dashboard');
