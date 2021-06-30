@@ -26,4 +26,7 @@
             echo '</div>';
         }
     }
+    if((mysqli_num_rows($consultar_servicios) % 3) != 0){
+        echo '</div>';
+    }
 ?>
